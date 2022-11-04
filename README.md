@@ -32,6 +32,16 @@
 $ npm install
 ```
 
+## Generate table database
+
+```bash
+# step 1
+$ npm run migration:generate name-model
+
+# step 2
+$ npm run migration:run
+```
+
 ## Running the app
 
 ```bash
